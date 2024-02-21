@@ -1,0 +1,527 @@
+
+
+body{
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    background: #a2d2ff;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#a2d2ff,#efb0c9);
+
+}
+
+#image{
+    border-radius: 10%;
+    border: 6px solid #efb0c9;   
+}
+
+h1, h2, h4, h3, p{
+    text-shadow: 0px 0px 1px black;
+}
+
+#bdayAge{
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+    margin: 10px 0 10px 0;
+
+}
+
+#bdayDate{
+    margin: 0;
+    background: #efb0c9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.giftCon{
+    width: 400px;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+
+    height: 400px;
+    background-image: url("giftboximage.webp");
+    background-size: cover;
+    
+    margin: 20px auto;
+    
+
+
+}
+
+#firstGift:hover{
+    background-image: url("happy.webp");
+}
+
+
+#secondGift:hover{
+
+    background-image: url("trevhot.webp");
+}
+
+#thirdGift:hover{
+    background-image: url("genius.webp");
+
+}
+
+#forthGift:hover{
+    background-image: url("badass.webp");
+
+}
+
+#lastGift{
+    height: 200px;
+}
+#lastGift:hover{
+    background-image: url("cheersgif.webp");
+}
+
+#footer{
+    font-style: italic;
+
+    width: 400px;
+    margin: 40px auto 20px ;
+}
+
+a{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+div{
+    text-align: center;
+    color: white;
+    margin: 5px;
+    padding: 25px 0;
+    background: #e5383b;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div:hover{
+    background: #ba181b;
+    font-size: 40px;
+    background-image: url("nasaimage.jpg");
+
+}
+
+
+
+
+/**
+body{
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    margin: 0px;
+
+
+}
+
+
+.btn{
+
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: inherit;
+    color: #82a5ca;
+    font-weight: bold;
+
+   
+}
+
+.exp{
+    border-bottom: 5px solid white;
+
+}
+
+#mainLogo{
+    width: 150px;
+
+}
+
+.hero{
+    background-image: url("giphy.gif");
+    background-size: cover; 
+
+    padding: 20px 0 40px 0;
+}
+
+#title{
+    text-shadow: 0px 0px 4px black;
+}
+
+
+
+/**
+
+
+@font-face{
+    src: url("Corleone.ttf");
+    font-family: Corleone; coudl've used any other name then next we tie it to h1 specifically as below 
+}
+
+h1{
+    font-family: Corleone;
+
+}
+
+
+
+
+
+
+
+
+/**
+
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profileIMG{
+    width: 150px;
+}
+
+.profileCard{
+
+    padding: 20px;
+    display: flex;
+    margin: 20px;
+
+    justify-content: space-around;
+
+    width: 400px;
+    
+
+    text-align: center;
+
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom:  8px solid #d8cefe;
+
+margin: 0 auto;
+
+
+}
+
+.italic{
+    font-style: italic;
+}
+
+.borderBlue{
+    border: 2px dotted blue;
+
+}
+
+
+/**
+.pricing{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+/**
+.main{
+    margin-top: 50px;
+    }
+
+
+
+    .text_box{
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        line-height: 24px;
+
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+        border-color: #dfe1e5;
+
+        padding-left: 30px;
+        padding-right: 30px;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+
+    }
+
+    .logo {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+.searchBtn{
+
+    width: 200px;
+
+    margin-top: 20px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+
+    border: none;
+    border-radius: 4px;
+    background: #dfe1e5;
+
+    font-weight: bold;
+    font-size: 14px;
+
+    margin-left: 4px;
+    margin-right: 4px;
+
+
+}
+
+.btn_wrapper{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+.nav-wrapper{
+   display: flex;
+   justify-content: center;
+
+
+}
+
+.item{
+    text-align: center;
+    border: 1px solid black;
+
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    width: 100px;
+
+}
+
+
+
+
+/**
+
+
+
+
+
+
+
+
+/**
+.following-btn{
+    border-color: #cfd9de;
+    border: 2px solid #0f1419;
+    border-radius: 20px;
+
+    background: white ;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+
+/**
+.card{
+
+
+    color: #222222;
+    background: lightyellow;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+border: 2px solid #222222;
+border-radius: 20px;
+
+
+    padding: 25px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/**
+.main{
+    margin-top: 50px;
+    }
+
+
+
+    .text_box{
+        width: 400px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+/**
+.image{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* centering with this hack requires
+    1. to have a width then
+    1/ display set to block
+    2.margin left and right set to auto
+}
+
+
+
+
+
+/*
+body{
+    margin: 0;
+}
+.red{
+    background: red;
+    height: 100px;
+}
+
+.white{
+    background: white;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.green{
+    background: green;
+    height: 100px;
+
+}
+
+
+
+
+
+.main{
+margin-top: 50px;
+}
+
+
+
+.text_box{
+    width: 400px;
+    display: block;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+    background: yellow;
+    color: blue;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+
+}
